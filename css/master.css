@@ -1,0 +1,176 @@
+body {
+  margin : 3;
+}
+
+header {
+  min-height: 100vh;
+  padding: 1em;
+  background: url('images/background-texture.jpg') no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+    min-height: 20vh;
+}
+
+#conteneur
+{
+  display: flex;
+  justify-content: center;
+
+}
+
+.bloc1 {
+
+  background: url('images/renard.jpg') center no-repeat; opacity: 0.5;
+  background-size: 360px;
+  margin-top: 3em;
+
+}
+
+.bloc2 {
+
+  background: url('images/chien_voyageur.jpg') center no-repeat; opacity: 0.5;
+  background-size: 400px;
+  margin-right: 2em;
+  margin-top: 3em;
+}
+
+
+.bloc3 {
+
+  background: url('images/grues.jpg') center no-repeat; opacity: 0.5;
+  background-size: 480px;
+  margin-right: 2em;
+  margin-top: 3em;
+}
+
+.titre1
+{
+  width: 62vh;
+  height: 20vh;
+  margin-top: 8em;
+  min-height: 35vh;
+}
+
+
+.titre2
+{
+  width: 50vh;
+  height: 20vh;
+  padding: 1px;
+  margin-top: 3.5em;
+  min-height: 35vh;
+}
+
+.titre3
+{
+  width: 50vh;
+  height: 3vh;
+  padding: 1px;
+  margin-top: 3em;
+  min-height: 35vh;
+}
+
+
+
+#fable02 {
+  min-height: 50vh;
+  background: url('images/chien_voyageur.jpg') top center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  padding: 42px;
+}
+
+#fable02 .titre {
+  text-align: center;
+  color: #2D3B08;
+  font-size: 25px;
+  font-family: 'Vidaloka', serif;
+}
+
+#fable02 .text-content {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 55px;
+  margin-top : 0;
+  margin-right : auto;
+  margin-bottom : 0;
+  margin-left : auto;
+  max-width: 620px;
+  border-radius: 15px;
+}
+
+
+#fable01 {
+  background: url('images/renard.jpg') left;
+  background-size: cover;
+  min-height: 70vh;
+}
+
+#fable01 .text-content {
+  padding: 10px;
+  margin-bottom : 1em;
+  margin-left: 1.5em;
+  max-width: 225px;
+  text-align: justify;
+
+}
+
+
+#fable01 .fable-moral {
+  border: 1.9px solid #946609;
+  text-align: center;
+  padding: 5px;
+}
+
+
+#fable03 {
+  min-height: 80vh;
+  background: url('images/grues.jpg') right center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding: 100px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#fable03 .main-content{
+background: #ffff;
+box-shadow: 4px 8px 16px #4E4F4F;
+opacity: 0.8;
+    max-width: 480px;
+    border-radius: 10px;
+}
+
+#fable03 p {
+  padding: 2px;
+  border-radius: 12px;
+  margin: 30px;
+  text-align: right;
+  font-family: 'Saira Condensed';
+}
+
+#fable03 h2 {
+  padding: 2px;
+  border-radius: 12px;
+  margin: 30px;
+  text-align: right;
+  font-family: 'Fjalla One';
+  color: #B57568;
+  font-size: 30px;
+}
+
+#fable03 .fable-moral {
+  font-size: 25px;
+  color: #B9604F;
+  text-align: center;
+border: 1px solid #B57568;
+}

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Fjalla+One|Hind|Roboto|Saira+Condensed|Vidaloka&display=swap');
+
+
+
+header {
+  font-family: 'Vidaloka', serif;
+}
+
+header h1 {
+  font-size: 10em;
+  text-align: center;
+  color: #5c79a0;
+}
+
+.titre1 h1
+{
+text-align: center;
+font-family: 'Vidaloka', serif;
+padding: 2em;
+color: #FFFF;
+
+}
+
+
+.titre2 h1
+{
+text-align: center;
+font-family: 'Vidaloka', serif;
+padding: 4em;
+color: #ffff;
+
+
+}
+
+.titre3 h1
+{
+text-align: center;
+font-family: 'Vidaloka', serif;
+padding: 4em;
+color: #ffff;
+
+}
+
+
+#fable02 p {
+  font-family: 'Roboto', sans-serif;
+  color:#ffff;
+  text-align: center;
+}
+
+#fable02 .fable-moral{
+  font-size: 23px;
+  font-family: 'Vidaloka';
+  color: #ffff;
+  text-shadow: 2px 5px 3px grey;
+}
+
+#fable01 h2 {
+  font-size: 3em;
+  padding-left:0.7em;
+  padding-top: 2em;
+  font-family: 'Fjalla One';
+  width: 225px;
+  color: #A86F1A;
+  text-align: center;
+
+}
+
+#fable01 .text-content {
+  font-family: 'Roboto', sans-serif;
+  color: #43300A;
+  opacity: 0.8;
+}
+
+
+#fable01 .fable-moral{
+  font-family: 'Hind';
+  font-weight: bold;
+  color: #43300A;
+  text-shadow: 2px 4px 3px #B59D6F;
+}
